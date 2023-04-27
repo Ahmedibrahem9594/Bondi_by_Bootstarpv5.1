@@ -23,6 +23,15 @@ body {
     background-color: var(--green-color);
     color: var(--dark-color);
 }
+.main-title::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 2px;
+    background-color: var(--green-color);
+    transform: translateX(-50%);
+    left: 50%;
+}
 /* end component */
 /* start navbar */
 .navbar{
@@ -62,3 +71,22 @@ body {
     min-height: calc(100vh - 72px);
 }
 /* end landing */
+/* start features */
+.features .icon-holder {
+    height: 200px;
+}
+.features .icon-holder svg {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.features .icon-holder .number {
+    font-size: 12rem;
+    color: var(--section-color);
+}
+.features .icon-holder .icon {
+    color: var(--green-color);
+}
+.features .feat h4 {
+    color: var(--yellow-color);
+}
+/* end features */
