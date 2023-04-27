@@ -11,6 +11,19 @@ body {
     font-family: 'Work Sans', sans-serif;
     height: 10000px;
 }
+/* start component */
+.main-btn {
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+    outline: none;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+.main-btn:hover {
+    background-color: var(--green-color);
+    color: var(--dark-color);
+}
+/* end component */
 /* start navbar */
 .navbar{
     background-color: var(--dark-color);
@@ -41,11 +54,11 @@ body {
     border-color: var(--green-color);
     color: var(--green-color);
 }
-.main-btn {
-    background-color: var(--red-color);
-    color: white;
-    outline: none;
-    border: none;
-}
-/* end navbar */
 
+/* end navbar */
+/* start landing */
+.landing {
+    background-color: var(--dark-color);
+    min-height: calc(100vh - 72px);
+}
+/* end landing */
