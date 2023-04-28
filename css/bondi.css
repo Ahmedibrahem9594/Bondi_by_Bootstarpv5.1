@@ -150,3 +150,32 @@ body {
     background-color: var(--dark-color);
 }
 /* end projects */
+/* start subscribe */
+.subscribe {
+    background-color: var(--yellow-color);
+}
+.subscribe .row input[type="text"] {
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.subscribe .row input[type="text"]:focus {
+    outline: none;
+}
+.subscribe .row ::placeholder {
+    color: white;
+    transition: 0.3s;
+}
+.subscribe .row input[type="text"]:focus::placeholder {
+    opacity: 0;
+}
+.subscribe .row input[type="submit"] {
+    background-color: var(--dark-color);
+    color: var(--yellow-color);
+}
+.subscribe .row input[type="submit"]:hover,
+.subscribe .row input[type="submit"]:focus {
+    color: var(--dark-color);
+    background-color: var(--red-color);
+}
+/* end subscribe */
